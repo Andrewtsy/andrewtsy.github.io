@@ -17,19 +17,19 @@ export default function Home() {
         </h1> &nbsp;&nbsp;
 
         <span>
-          <Image src="/Prof2.jpg" alt="Headshot" width={200} height={300} />
+          <Image src="ProfHeadshot.png" alt="Headshot" width={280} height={420} />
         </span>
 
         <p className={styles.description}>
           Find me at the following locations <br/>
-          <a href="https://github.com/Andrewtsy">
-            Github
-          </a> &nbsp;
-          <a href="https://www.linkedin.com/in/andrew-tao-5a9729213/">
-            Linkedin
-          </a> &nbsp;
-          <a href="https://www.instagram.com/andrew.tao1/">
-            Instagram
+          <a className={styles.img} href="https://github.com/Andrewtsy">
+            <Image src="Github.png" width={75} height={75}/>
+          </a>
+          <a className={styles.img} href="https://www.linkedin.com/in/andrew-tao-5a9729213/">
+            <Image src="LinkedIn.png" className={styles.logo} width={75} height={75}/>
+          </a>
+          <a className={styles.img} href="https://www.instagram.com/andrew.tao1/">
+            <Image src="Instagram.png" className={styles.logo} width={75} height={75}/>
           </a>
         </p>
       </main>
