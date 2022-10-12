@@ -26,10 +26,10 @@ export default function Home() {
             <Image src="Github.png" width={75} height={75}/>
           </a>
           <a className={styles.img} href="https://www.linkedin.com/in/andrew-tao-5a9729213/">
-            <Image src="LinkedIn.png" className={styles.logo} width={75} height={75}/>
+            <Image src="LinkedIn.png" width={75} height={75}/>
           </a>
           <a className={styles.img} href="https://www.instagram.com/andrew.tao1/">
-            <Image src="Instagram.png" className={styles.logo} width={75} height={75}/>
+            <Image src="Instagram.png" width={75} height={75}/>
           </a>
         </p>
       </main>
