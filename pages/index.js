@@ -21,15 +21,15 @@ export default function Home() {
         </span>
 
         <p className={styles.description}>
-          Find me at the following locations <br/>
+          You can find me at the following locations <br/>
           <a className={styles.img} href="https://github.com/Andrewtsy">
-            <Image src="Github.png" width={75} height={75}/>
+            <Image src="github.svg" width={50} height={50}/>
           </a>
           <a className={styles.img} href="https://www.linkedin.com/in/andrew-tao-5a9729213/">
-            <Image src="LinkedIn.png" width={75} height={75}/>
+            <Image src="linkedin-in.svg" width={50} height={50}/>
           </a>
           <a className={styles.img} href="https://www.instagram.com/andrew.tao1/">
-            <Image src="Instagram.png" width={75} height={75}/>
+            <Image src="instagram.svg" width={50} height={50}/>
           </a>
         </p>
       </main>
