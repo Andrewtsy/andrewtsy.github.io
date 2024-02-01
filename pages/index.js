@@ -28,9 +28,6 @@ export default function Home() {
           <a className={styles.img} href="https://www.linkedin.com/in/andrew-tao-5a9729213/">
             <Image src="linkedin-in.svg" width={50} height={50}/>
           </a>
-          <a className={styles.img} href="https://www.instagram.com/andrew.tao1/">
-            <Image src="instagram.svg" width={50} height={50}/>
-          </a>
         </p>
       </main>
     </div>
