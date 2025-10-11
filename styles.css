@@ -1,0 +1,13 @@
+h1 {
+    font-family: "Garamond", "Times New Roman", serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 3em;
+}
+
+body {
+    font-family: "Garamond", "Times New Roman", serif;
+    font-size: 1em;
+    text-align: center;
+    background-color: #dfbf99;
+}
