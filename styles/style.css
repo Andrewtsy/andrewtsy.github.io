@@ -1,17 +1,5 @@
-h1 {
-    font-family: "Garamond", "Times New Roman", serif;
-    font-size: 3em;
-    text-align: center;
-    margin-top: 3em;
-}
-
-body {
-    font-family: "Garamond", "Times New Roman", serif;
-    font-size: 2em;
-    text-align: center;
-}
-
 .profile {
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,6 +26,24 @@ ol {
     list-style: none;
     margin: 2rem;
     padding: 0;
+}
+
+h2.section-title {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.25rem;
+}
+
+h2.section-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 4px;
+    width: calc(100% + 1rem);
+    background: rgba(0, 0, 0, 1);
+    z-index: -1;
 }
 
 /* Responsive: stack on small screens */
